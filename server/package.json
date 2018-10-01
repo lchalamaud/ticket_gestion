@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "log": "^1.4.0",
+    "mongoose": "^5.2.17",
+    "morgan": "^1.9.1",
+    "node-file-logger": "^0.9.5",
+    "nodemon": "^1.18.4",
+    "socket.io": "^2.1.1"
+  }
+}
